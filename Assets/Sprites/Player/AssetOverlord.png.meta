@@ -1,0 +1,1356 @@
+fileFormatVersion: 2
+guid: ce979ce4bd35a9940aa3df00dfbe2ec0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 502516178953427802
+    second: AssetOverlord_0
+  - first:
+      213: -6809010059602315607
+    second: AssetOverlord_1
+  - first:
+      213: -2900407074430522026
+    second: AssetOverlord_2
+  - first:
+      213: 2648472276107658302
+    second: AssetOverlord_3
+  - first:
+      213: -6298930511070700408
+    second: AssetOverlord_4
+  - first:
+      213: 5299982132771663674
+    second: AssetOverlord_5
+  - first:
+      213: -7218001659349231913
+    second: AssetOverlord_6
+  - first:
+      213: -8889369619347422813
+    second: AssetOverlord_7
+  - first:
+      213: -4256124740302009409
+    second: AssetOverlord_8
+  - first:
+      213: -481534139894374127
+    second: AssetOverlord_9
+  - first:
+      213: 3991886190916465890
+    second: AssetOverlord_10
+  - first:
+      213: -2102857094953018590
+    second: AssetOverlord_11
+  - first:
+      213: 8966433357537851424
+    second: AssetOverlord_12
+  - first:
+      213: 4444332441198075004
+    second: AssetOverlord_13
+  - first:
+      213: -8819391098969722477
+    second: AssetOverlord_14
+  - first:
+      213: -7973847829422577085
+    second: AssetOverlord_15
+  - first:
+      213: -2400704476117738265
+    second: AssetOverlord_16
+  - first:
+      213: -649389632076137898
+    second: AssetOverlord_17
+  - first:
+      213: -4693608972324971561
+    second: AssetOverlord_18
+  - first:
+      213: 3882643275542675168
+    second: AssetOverlord_19
+  - first:
+      213: 7049750450854929724
+    second: AssetOverlord_20
+  - first:
+      213: -5519691846895700132
+    second: AssetOverlord_21
+  - first:
+      213: 633628801300582601
+    second: AssetOverlord_22
+  - first:
+      213: -8415603097203894284
+    second: AssetOverlord_23
+  - first:
+      213: -7468688593588781051
+    second: AssetOverlord_24
+  - first:
+      213: 1481136298644739645
+    second: AssetOverlord_25
+  - first:
+      213: 2675179636512878490
+    second: AssetOverlord_26
+  - first:
+      213: -4275551456533667835
+    second: AssetOverlord_27
+  - first:
+      213: -6104419978777041338
+    second: AssetOverlord_28
+  - first:
+      213: 7073191160621693350
+    second: AssetOverlord_29
+  - first:
+      213: 2445124656273586739
+    second: AssetOverlord_30
+  - first:
+      213: -529267039854739566
+    second: AssetOverlord_31
+  - first:
+      213: 2095285548214674800
+    second: AssetOverlord_32
+  - first:
+      213: 6289125207555461000
+    second: AssetOverlord_33
+  - first:
+      213: 2831410230990415943
+    second: AssetOverlord_34
+  - first:
+      213: 6360908188442869976
+    second: AssetOverlord_35
+  - first:
+      213: -3061124731504659161
+    second: AssetOverlord_36
+  - first:
+      213: 1172912549529442399
+    second: AssetOverlord_37
+  - first:
+      213: -303009619671276417
+    second: AssetOverlord_38
+  - first:
+      213: 701247612647250988
+    second: AssetOverlord_39
+  - first:
+      213: 8999734632405146162
+    second: AssetOverlord_40
+  - first:
+      213: -7117731800845337704
+    second: AssetOverlord_41
+  - first:
+      213: 6435476147266681410
+    second: AssetOverlord_42
+  - first:
+      213: -650057811971721180
+    second: AssetOverlord_43
+  - first:
+      213: 6989725111054136488
+    second: AssetOverlord_44
+  - first:
+      213: 4857278394193420889
+    second: AssetOverlord_45
+  - first:
+      213: 4888269568058159220
+    second: AssetOverlord_46
+  - first:
+      213: -6238149114095737068
+    second: AssetOverlord_47
+  - first:
+      213: -4953202086443227467
+    second: AssetOverlord_48
+  - first:
+      213: 2220970684302894588
+    second: AssetOverlord_49
+  - first:
+      213: -7820153234728908332
+    second: AssetOverlord_50
+  - first:
+      213: -5439810348646123037
+    second: AssetOverlord_51
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AssetOverlord_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 422
+        width: 113
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bd7646dcb49f600800000000000000
+      internalID: 502516178953427802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 424
+        width: 110
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6b75d2d698181a0800000000000000
+      internalID: -6809010059602315607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_2
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 499
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65de980022fafb7d0800000000000000
+      internalID: -2900407074430522026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_3
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 504
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e340edeb08341c420800000000000000
+      internalID: 2648472276107658302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_4
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 504
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cd2c6c214b598a0800000000000000
+      internalID: -6298930511070700408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_5
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 499
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fa5c35ba15d8940800000000000000
+      internalID: 5299982132771663674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_6
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 509
+        width: 110
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d61f42cbb184db90800000000000000
+      internalID: -7218001659349231913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_7
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 510
+        width: 110
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1c5a9dd6d92a480800000000000000
+      internalID: -8889369619347422813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_8
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 414
+        width: 211
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb0c8e39153fe4c0800000000000000
+      internalID: -4256124740302009409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_9
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 412
+        width: 213
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1116f54404f3159f0800000000000000
+      internalID: -481534139894374127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_10
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 377
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4fc593757066730800000000000000
+      internalID: 3991886190916465890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_11
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 404
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b5ae11d9621d2e0800000000000000
+      internalID: -2102857094953018590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_12
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 404
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028b14ae1ab2f6c70800000000000000
+      internalID: 8966433357537851424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_13
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 377
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c1b55eec07dad30800000000000000
+      internalID: 4444332441198075004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_14
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 392
+        width: 51
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391faaac58a3b9580800000000000000
+      internalID: -8819391098969722477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_15
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 409
+        width: 50
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a6f3a75a3375190800000000000000
+      internalID: -7973847829422577085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_16
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 392
+        width: 51
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecdf4a9ffbfeaed0800000000000000
+      internalID: -2400704476117738265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_17
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 242
+        width: 113
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ab74bf197ecf6f0800000000000000
+      internalID: -649389632076137898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_18
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 244
+        width: 110
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbdbf9e183fcdeb0800000000000000
+      internalID: -4693608972324971561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_19
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 334
+        width: 87
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eeb74cec7be1e530800000000000000
+      internalID: 3882643275542675168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_20
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 214
+        width: 211
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35ab521faeb5d160800000000000000
+      internalID: 7049750450854929724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_21
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 213
+        width: 213
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c577924828d1663b0800000000000000
+      internalID: -5519691846895700132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_22
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 212
+        width: 64
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c05af4a90a1bc800800000000000000
+      internalID: 633628801300582601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_23
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 310
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f71c742295c53b80800000000000000
+      internalID: -8415603097203894284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_24
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 209
+        width: 64
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50001218b43e95890800000000000000
+      internalID: -7468688593588781051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_25
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 264
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3618a0cd9d0e8410800000000000000
+      internalID: 1481136298644739645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_26
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 235
+        width: 100
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f65b8a4b5202520800000000000000
+      internalID: 2675179636512878490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_27
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 234
+        width: 99
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50028666a903aa4c0800000000000000
+      internalID: -4275551456533667835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_28
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 219
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64662353f5eb84ba0800000000000000
+      internalID: -6104419978777041338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_29
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 42
+        width: 113
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9f94d92e5092260800000000000000
+      internalID: 7073191160621693350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_30
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 44
+        width: 110
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a7cb88be3dee120800000000000000
+      internalID: 2445124656273586739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_31
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fb2227e6aa7a8f0800000000000000
+      internalID: -529267039854739566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_32
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0756854da13f31d10800000000000000
+      internalID: 2095285548214674800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_33
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 167
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f4c481e06774750800000000000000
+      internalID: 6289125207555461000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_34
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 167
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74827978a903b4720800000000000000
+      internalID: 2831410230990415943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_35
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 167
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0c20dbb4c764850800000000000000
+      internalID: 6360908188442869976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_36
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 167
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72570857643b485d0800000000000000
+      internalID: -3061124731504659161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_37
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 14
+        width: 211
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58dc4bdfb5074010800000000000000
+      internalID: 1172912549529442399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_38
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 12
+        width: 213
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74a7f73b5e7bcbf0800000000000000
+      internalID: -303009619671276417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_39
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 148
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c1e630df45bb900800000000000000
+      internalID: 701247612647250988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_40
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 102
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a1a4d27fa75ec70800000000000000
+      internalID: 8999734632405146162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_41
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 85
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bbc1473acb83d90800000000000000
+      internalID: -7117731800845337704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_42
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 87
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a745695776f4950800000000000000
+      internalID: 6435476147266681410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_43
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 87
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42835f93dd78af6f0800000000000000
+      internalID: -650057811971721180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_44
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 87
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4720294fd700160800000000000000
+      internalID: 6989725111054136488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_45
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 19
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952241de6f4886340800000000000000
+      internalID: 4857278394193420889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_46
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 57
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4707572e54f96d340800000000000000
+      internalID: 4888269568058159220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_47
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 19
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417e76e8e64ad69a0800000000000000
+      internalID: -6238149114095737068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_48
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 5
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6e3d012f0b24bb0800000000000000
+      internalID: -4953202086443227467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_49
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 7
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf52e66f11972de10800000000000000
+      internalID: 2220970684302894588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_50
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 7
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d98cd2e01c397390800000000000000
+      internalID: -7820153234728908332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetOverlord_51
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 7
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9347b2f49e184b0800000000000000
+      internalID: -5439810348646123037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
