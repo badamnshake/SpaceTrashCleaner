@@ -7,8 +7,8 @@ public class PlayerManager : MonoBehaviour
     [SerializeField]
     private ShipData[] shipSprites;
     public ShipColor shipColor;
-    public short shipSize;
-    short currentShipSize = -1;
+    public ShipSize shipSize;
+    ShipSize currentShipSize = ShipSize.Null;
     ShipData currentShip;
     void Start()
     {
@@ -21,15 +21,16 @@ public class PlayerManager : MonoBehaviour
     }
     void ChangeSprite()
     {
+        // to be optimized
         for (int i = 0; i < shipSprites.Length; i++)
         {
             if (shipSprites[i].shipColor == shipColor)
             {
-                if (currentShipSize >= 0)
+                if (currentShipSize != ShipSize.Null)
                 {
-                    currentShip.sizes[currentShipSize].SetActive(false);
+                    currentShip.sizes[(int)currentShipSize].SetActive(false);
                 }
-                shipSprites[i].sizes[shipSize].SetActive(true);
+                shipSprites[i].sizes[(int)shipSize].SetActive(true);
                 currentShip = shipSprites[i];
                 currentShipSize = shipSize;
             }
@@ -42,5 +43,10 @@ public class PlayerManager : MonoBehaviour
         {
             ChangeSprite();
         }
+    }
+    public void GetShipSizeColor(out ShipSize size, out ShipColor color)
+    {
+        size = this.currentShipSize;
+        color = currentShip.shipColor;
     }
 }

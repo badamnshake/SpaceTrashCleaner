@@ -5,20 +5,29 @@ using UnityEngine;
 
 public enum ShipColor
 {
-    Yellow,
-    Green,
-    Black,
-    Purple
+    Yellow = 0,
+    Green = 1,
+    Black = 2,
+    Purple = 3
+}
+public enum ShipSize
+{
+    Null = -1,
+    Small = 0,
+    Medium = 1,
+    Large = 2,
 }
 [Serializable]
 public struct ShipData
 {
     public ShipColor shipColor;
+    [Header("put from smallest to largest ships 0:small 1:med 2:large")]
     public GameObject[] sizes;
 }
-public enum ShipSize
+[Serializable]
+public struct ShipProjectileArray
 {
-    Small,
-    Medium,
-    Large
+    public ShipColor shipColor;
+    [Header("put Laser Circle Square")]
+    public GameObject[] projectilesToUse;
 }

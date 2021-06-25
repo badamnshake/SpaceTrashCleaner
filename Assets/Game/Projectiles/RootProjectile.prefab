@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4888045726088151610}
   - component: {fileID: 7677288587223511146}
   - component: {fileID: -4177400006487159912}
+  - component: {fileID: 645256140875233855}
   m_Layer: 0
   m_Name: RootProjectile
   m_TagString: Untagged
@@ -64,7 +65,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -92,3 +93,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 928442cdf1c0ad248b9ce3e3f09a36d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &645256140875233855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3901152798792436556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f52fada0ffcc9244b9bf015a9631d04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destoryTimeout: 2
