@@ -1690,27 +1690,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Asset-Sheet-with-transparency_22
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 576
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0452be8dba9e61d0800000000000000
-      internalID: -3355574533410892786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: owen
       rect:
         serializedVersion: 2
