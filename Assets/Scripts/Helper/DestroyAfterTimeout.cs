@@ -7,12 +7,7 @@ public class DestroyAfterTimeout : MonoBehaviour
     public float destoryTimeout = 2f;
     void Start()
     {
-        DestroyAfter(destoryTimeout);
+        Destroy(gameObject, destoryTimeout);
     }
 
-    IEnumerator DestroyAfter(float timeout)
-    {
-        yield return new WaitForSeconds(timeout);
-        Destroy(gameObject);
-    }
 }
