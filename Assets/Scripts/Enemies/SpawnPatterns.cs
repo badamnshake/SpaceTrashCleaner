@@ -10,7 +10,7 @@ public class SpawnPatterns : MonoBehaviour
         ArcSpread(10);
     }
 
-    public PatternInfo ArcSpread(int numberOfPoints, float offsetAngle = -90f, float arcDegrees = 360f, float distanceFromSpawner = 1)
+    public static PatternInfo ArcSpread(int numberOfPoints, float offsetAngle = -90f, float arcDegrees = 360f, float distanceFromSpawner = 1)
     {
         List<Vector2> posArr = new List<Vector2>();
         List<float> zRotationArr = new List<float>();
@@ -36,7 +36,7 @@ public class SpawnPatterns : MonoBehaviour
 
         return new PatternInfo(posArr, zRotationArr);
     }
-    public PatternInfo LineSpread(int numberOfPoints, float distanceBetPoints, float offset = 0, float distanceFromSpawner = 1)
+    public static PatternInfo LineSpread(int numberOfPoints, float distanceBetPoints, float offset = 0, float distanceFromSpawner = 1)
     {
         List<Vector2> posArr = new List<Vector2>();
         List<float> zRotationArr = new List<float>();
@@ -74,9 +74,9 @@ public class SpawnPatterns : MonoBehaviour
     }
 
 
-    public Vector2 PointsFromAngle(float angleZ, float distanceFromSpawner = 1)
+    public static Vector2 PointsFromAngle(float angleZ, float distanceFromSpawner = 1)
     {
         return new Vector2(Mathf.Cos(angleZ), Mathf.Sin(angleZ)) * distanceFromSpawner;
     }
-    public bool isEven(int number) => number % 2 == 0 ? true : false;
+    public static bool isEven(int number) => number % 2 == 0 ? true : false;
 }

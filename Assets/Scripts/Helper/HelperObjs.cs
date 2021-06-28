@@ -45,4 +45,7 @@ public struct PatternInfo
         this.posArr = positions;
         this.zRotationArr = rotations;
     }
+    public int Length() {
+       return posArr.Count; 
+    }
 }

@@ -7,7 +7,9 @@ public class SOEnemy : ScriptableObject
     public GameObject projectilePrefab;
     public ShootPatternType shootPattern;
     public int noOfBulletsInOneAttack;
+    public float distanceBetBullets;
     public float timeBetweenAttacks;
+    public float bulletSpeed;
     public bool isSmartEnemy = false; // yet to be implemented
 
 }
