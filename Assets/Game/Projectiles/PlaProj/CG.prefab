@@ -90,6 +90,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 474734260679270225, guid: 34b21c2729a803d43abf3caf11755458, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 856301843152558533, guid: 34b21c2729a803d43abf3caf11755458, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -137,6 +141,18 @@ PrefabInstance:
     - target: {fileID: 3901152798792436556, guid: 34b21c2729a803d43abf3caf11755458, type: 3}
       propertyPath: m_Name
       value: CG
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348360721463642554, guid: 34b21c2729a803d43abf3caf11755458, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348360721463642554, guid: 34b21c2729a803d43abf3caf11755458, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348360721463642554, guid: 34b21c2729a803d43abf3caf11755458, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.r
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7677288587223511146, guid: 34b21c2729a803d43abf3caf11755458, type: 3}
       propertyPath: m_Size.x

@@ -12,10 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65a233d5073e75d4db726701e57d8cb2, type: 3}
   m_Name: Simpleton
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 3776687407463474856, guid: 70da5633aa91c6a48807f05a1b2984bb, type: 3}
   enemyPath: {fileID: 8801125589230126244, guid: 0b059d242cfb233418da4b49ed784955, type: 3}
   projectilePrefab: {fileID: 79632882110289747, guid: 454363e12ed1b264fb3b8475f74373b7, type: 3}
-  shootPattern: 0
-  noOfBulletsInOneAttack: 5
   timeBetweenAttacks: 1
+  bulletSpeed: 2
   isSmartEnemy: 0

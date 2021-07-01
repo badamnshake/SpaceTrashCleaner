@@ -13,6 +13,9 @@ public class Enemy : MonoBehaviour
     EnemyPath path;
     GameObject enemy;
     Vector2 wayPoint;
+    bool isShooting = false;
+    float shootingTimeout = 0.25f;
+    float timeSinceLastShoot = Mathf.Infinity;
 
     private void Awake()
     {
@@ -20,11 +23,12 @@ public class Enemy : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        if (timeSinceLastShoot < shootingTimeout) return;
         MoveAlongPath(loopPath);
-        ShootBehaviour();
     }
-    private void ShootBehaviour() {
-        
+    private void Update()
+    {
+        timeSinceLastShoot += Time.deltaTime;
     }
     private void MoveAlongPath(bool loopPath)
     {
@@ -58,5 +62,10 @@ public class Enemy : MonoBehaviour
     private void Die()
     {
         Destroy(gameObject);
+    }
+    public void SetIsShooting(bool shootin)
+    {
+        if (shootin) timeSinceLastShoot = 0f;
+        isShooting = shootin;
     }
 }
