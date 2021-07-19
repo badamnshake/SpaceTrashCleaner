@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     public Rigidbody2D rb;
     public float speed = 2f;
     public bool loopPath = false;
+    public bool canShoot = true;
 
     int currWayPointIndex = 0;
     EnemyPath path;
@@ -20,16 +21,23 @@ public class Enemy : MonoBehaviour
     private void Awake()
     {
         path = enemyData.enemyPath;
+        if (canShoot)
+        {
+            GetComponent<EnemyShoot>().enabled = true;
+        }
     }
+
     private void FixedUpdate()
     {
-        if (timeSinceLastShoot < shootingTimeout) return;
+        if (canShoot && timeSinceLastShoot < shootingTimeout) return;
         MoveAlongPath(loopPath);
     }
+
     private void Update()
     {
         timeSinceLastShoot += Time.deltaTime;
     }
+
     private void MoveAlongPath(bool loopPath)
     {
         if (path.ExceedsIndex(currWayPointIndex))
@@ -39,19 +47,26 @@ public class Enemy : MonoBehaviour
             else
                 currWayPointIndex = 0;
         }
+
         wayPoint = path.GetWayPoint(currWayPointIndex);
-        wayPoint = new Vector2(wayPoint.x - rb.position.x, wayPoint.y - rb.position.y);
+
+        var position = rb.position;
+
+        wayPoint = new Vector2(wayPoint.x - position.x, wayPoint.y - position.y);
         if (wayPoint.magnitude < 0.2)
         {
             currWayPointIndex++;
         }
-        rb.MovePosition(rb.position + wayPoint.normalized * speed * Time.fixedDeltaTime);
+
+        rb.MovePosition(position + wayPoint.normalized * (speed * Time.fixedDeltaTime));
     }
+
     public Vector2 GetEnemyOrigin()
     {
         path = enemyData.enemyPath;
         return path.GetWayPoint(currWayPointIndex);
     }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("OutBound"))
@@ -59,10 +74,13 @@ public class Enemy : MonoBehaviour
             Die();
         }
     }
+
     private void Die()
     {
-        Destroy(gameObject);
+        print("Enemy hit the wall");
+        // Destroy(gameObject);
     }
+
     public void SetIsShooting(bool shootin)
     {
         if (shootin) timeSinceLastShoot = 0f;

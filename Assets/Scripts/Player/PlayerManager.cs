@@ -60,7 +60,7 @@ public class PlayerManager : MonoBehaviour, IHealth
     // health interface
     public void GetShipSizeColor(out ShipSize size, out ShipColor color)
     {
-        size = this.currentShipSize;
+        size = currentShipSize;
         color = currentShip.shipColor;
     }
 

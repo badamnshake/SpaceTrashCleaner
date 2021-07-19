@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,19 @@ using UnityEngine;
 
 public class EnemyPath : MonoBehaviour
 {
+    private Camera mainCam;
+    private Vector2 camPos;
+
+    private void Awake()
+    {
+        mainCam = Camera.main;
+    }
+
+    private void Update()
+    {
+        camPos = mainCam.transform.position;
+    }
+
     private void OnDrawGizmos()
     {
         Vector2[] points = {
@@ -57,8 +71,7 @@ public class EnemyPath : MonoBehaviour
     // so taking camera as 0,0 the origin is returned  
     public Vector2 CamOriginify(Vector2 vector)
     {
-        Vector2 camPosition = Camera.main.transform.position;
-        return new Vector2(vector.x + camPosition.x, vector.y + camPosition.y);
+        return new Vector2(vector.x + camPos.x, vector.y + camPos.y);
 
     }
 

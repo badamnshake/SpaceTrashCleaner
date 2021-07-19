@@ -146,6 +146,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4288203817614209745, guid: 4f0b23d6cbc81e7439f7435afe7ef842, type: 3}
+      propertyPath: canShoot
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288203817614209745, guid: 4f0b23d6cbc81e7439f7435afe7ef842, type: 3}
       propertyPath: loopPath
       value: 0
       objectReference: {fileID: 0}

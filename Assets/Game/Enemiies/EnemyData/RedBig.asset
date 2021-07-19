@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65a233d5073e75d4db726701e57d8cb2, type: 3}
-  m_Name: Simpleton
+  m_Name: RedBig
   m_EditorClassIdentifier: 
   enemyPath: {fileID: 8801125589230126244, guid: 0b059d242cfb233418da4b49ed784955, type: 3}
-  projectilePrefab: {fileID: 79632882110289747, guid: 454363e12ed1b264fb3b8475f74373b7, type: 3}
+  projectilePrefab: {fileID: 2293979011940764813, guid: 1bca182308511c24a8a70699ced6b877, type: 3}
   timeBetweenAttacks: 1
   bulletSpeed: 2
   isSmartEnemy: 0

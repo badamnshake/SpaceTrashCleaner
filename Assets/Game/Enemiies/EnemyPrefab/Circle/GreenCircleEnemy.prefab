@@ -242,7 +242,7 @@ PrefabInstance:
     - target: {fileID: 4288203817614209745, guid: 4f0b23d6cbc81e7439f7435afe7ef842, type: 3}
       propertyPath: enemyData
       value: 
-      objectReference: {fileID: 11400000, guid: 6a6d856c7fb7a4f40873f67d9045db2e, type: 2}
+      objectReference: {fileID: 11400000, guid: 4b4fde19b4864a44db4bbd241436fc03, type: 2}
     - target: {fileID: 6744544218193011922, guid: 4f0b23d6cbc81e7439f7435afe7ef842, type: 3}
       propertyPath: m_Size.x
       value: 0.21
@@ -261,7 +261,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8519838028707794692, guid: 4f0b23d6cbc81e7439f7435afe7ef842, type: 3}
       propertyPath: m_Name
-      value: BlueCircleEn
+      value: GreenCircleEnemy
       objectReference: {fileID: 0}
     - target: {fileID: 8519838028707794715, guid: 4f0b23d6cbc81e7439f7435afe7ef842, type: 3}
       propertyPath: m_RootOrder
