@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 2f;
+    public float moveSpeed = 5f;
     public Rigidbody2D rb;
+
     void Update()
     {
         Movement();
         Aim();
     }
+
     void Movement()
     {
         Vector2 toMoveDir = new Vector2(0, 0);
@@ -23,10 +25,12 @@ public class PlayerController : MonoBehaviour
 
         if (toMoveDir.magnitude > 1)
         {
-            toMoveDir = toMoveDir * 0.7071f;
+            toMoveDir *= 0.7071f;
         }
-        rb.MovePosition(rb.position + toMoveDir * moveSpeed * Time.fixedDeltaTime);
+
+        rb.MovePosition(rb.position + toMoveDir.normalized * (moveSpeed * Time.fixedDeltaTime));
     }
+
     void Aim()
     {
         Vector2 aimDirection = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;

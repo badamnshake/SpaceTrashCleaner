@@ -10,5 +10,10 @@ public class Projectile : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        if (other.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

@@ -1,14 +1,25 @@
-using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class EasyEnemy : MonoBehaviour
+public class StopShooter : MonoBehaviour
 {
+    private Vector2 origin;
+    private Vector2 destination;
+
     [SerializeField] Rigidbody2D rb;
     [SerializeField] float speed = 2f;
     [SerializeField] float hitDamage = 2f;
     [SerializeField] bool loopPath;
     [SerializeField] EnemyPath path;
     [SerializeField] GameObject _destroyEffect;
+
+    public void SetPoints(Vector2 ori, Vector2 dest)
+    {
+        origin = ori;
+        destination = dest;
+    }
+
 
     int _currWayPointIndex;
     Vector2 _wayPoint;
@@ -73,6 +84,17 @@ public class EasyEnemy : MonoBehaviour
         {
             Instantiate(_destroyEffect, transform.position, Quaternion.identity);
         }
+
         Destroy(gameObject);
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
     }
 }

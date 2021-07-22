@@ -4,19 +4,20 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour, IHealth
 {
-    [SerializeField]
-    private ShipData[] shipSprites;
+    [SerializeField] private ShipData[] shipSprites;
     public ShipColor shipColor;
     public ShipSize shipSize;
     ShipSize currentShipSize = ShipSize.Null;
     ShipData currentShip;
+    public GameObject _destroyEffect;
 
 
     // health thingies
-    [SerializeField]
-    private float[] levelMaxHealth;
+    [SerializeField] private float[] levelMaxHealth;
     float maxHealth;
-    float healthAddOn = 0; /// extra health from powerups works as extenstion to maxHealth
+    float healthAddOn = 0;
+
+    /// extra health from powerups works as extenstion to maxHealth
     float currentHealth;
 
     void Start()
@@ -29,6 +30,7 @@ public class PlayerManager : MonoBehaviour, IHealth
     {
         CheckVars();
     }
+
     void ChangeSprite()
     {
         // to be optimized
@@ -38,15 +40,16 @@ public class PlayerManager : MonoBehaviour, IHealth
             {
                 if (currentShipSize != ShipSize.Null)
                 {
-                    currentShip.sizes[(int)currentShipSize].SetActive(false);
+                    currentShip.sizes[(int) currentShipSize].SetActive(false);
                 }
-                shipSprites[i].sizes[(int)shipSize].SetActive(true);
+
+                shipSprites[i].sizes[(int) shipSize].SetActive(true);
                 currentShip = shipSprites[i];
                 currentShipSize = shipSize;
             }
         }
-
     }
+
     void CheckVars()
     {
         if (currentShip.shipColor != shipColor || currentShipSize != shipSize)
@@ -71,7 +74,12 @@ public class PlayerManager : MonoBehaviour, IHealth
 
     public void TakeDamage(float damage)
     {
+        print(currentHealth);
         currentHealth -= damage;
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
     }
 
 
@@ -90,12 +98,17 @@ public class PlayerManager : MonoBehaviour, IHealth
 
     public void Die()
     {
-        throw new System.NotImplementedException();
+        Instantiate(_destroyEffect, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
+
     void UpdateMaxHealth()
     {
-        maxHealth = levelMaxHealth[(int)currentShipSize] + healthAddOn;
+        maxHealth = levelMaxHealth[(int) currentShipSize] + healthAddOn;
+        currentHealth = maxHealth;
+        print(maxHealth);
     }
+
     void UpdateHealthAddon(float addOn)
     {
         healthAddOn += addOn;
