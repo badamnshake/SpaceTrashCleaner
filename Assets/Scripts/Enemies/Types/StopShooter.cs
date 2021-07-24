@@ -1,63 +1,53 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class StopShooter : MonoBehaviour
 {
-    private Vector2 origin;
-    private Vector2 destination;
+    private Vector2 _origin, _destination;
+    private Vector2 _wayPoint;
+    private bool _moving;
+    private bool _visitedDestination;
 
     [SerializeField] Rigidbody2D rb;
     [SerializeField] float speed = 2f;
     [SerializeField] float hitDamage = 2f;
-    [SerializeField] bool loopPath;
-    [SerializeField] EnemyPath path;
-    [SerializeField] GameObject _destroyEffect;
+    [SerializeField] GameObject destroyEffect;
 
     public void SetPoints(Vector2 ori, Vector2 dest)
     {
-        origin = ori;
-        destination = dest;
+        _origin = ori;
+        _destination = dest;
+        _moving = true;
     }
 
-
-    int _currWayPointIndex;
-    Vector2 _wayPoint;
 
     private void FixedUpdate()
     {
-        MoveAlongPath();
-    }
-
-    private void MoveAlongPath()
-    {
-        if (path.ExceedsIndex(_currWayPointIndex))
+        if (!_moving) return;
+        Vector2 position = rb.position;
+        _wayPoint = new Vector2(_destination.x - position.x, _destination.y - position.y);
+        rb.MovePosition(position + _wayPoint.normalized * (speed * Time.fixedDeltaTime));
+        if (_wayPoint.magnitude < 0.2)
         {
-            if (!loopPath)
+            if (_visitedDestination)
             {
                 Die();
                 return;
             }
 
-            _currWayPointIndex = 0;
+            _destination = _origin;
+            _moving = false;
+            _visitedDestination = true;
+            StartCoroutine(StopShootBehaviour());
         }
-
-        _wayPoint = path.GetWayPoint(_currWayPointIndex);
-
-        var position = rb.position;
-
-        _wayPoint = new Vector2(_wayPoint.x - position.x, _wayPoint.y - position.y);
-
-        if (_wayPoint.magnitude < 0.2)
-            _currWayPointIndex++;
-
-        rb.MovePosition(position + _wayPoint.normalized * (speed * Time.fixedDeltaTime));
     }
 
-    public Vector2 GetEnemyOrigin()
+    private IEnumerator StopShootBehaviour()
     {
-        return path.GetWayPoint(_currWayPointIndex);
+        yield return new WaitForSeconds(2f);
+        _moving = true;
     }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -72,8 +62,6 @@ public class StopShooter : MonoBehaviour
 
             GameObject.FindWithTag("Player").GetComponent<IHealth>().TakeDamage(hitDamage);
 
-            // other.GetComponentInParent<GameObject>().GetComponentInParent<GameObject>().GetComponentInParent<IHealth>()
-            // .TakeDamage(hitDamage);
             Die(true);
         }
     }
@@ -82,19 +70,9 @@ public class StopShooter : MonoBehaviour
     {
         if (fireEffect)
         {
-            Instantiate(_destroyEffect, transform.position, Quaternion.identity);
+            Instantiate(destroyEffect, transform.position, Quaternion.identity);
         }
 
         Destroy(gameObject);
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
     }
 }

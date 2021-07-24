@@ -15,7 +15,7 @@ public class StopShooterPath : MonoBehaviour
             x++;
             i += 2;
         }
-
+        
         return result;
     }
 

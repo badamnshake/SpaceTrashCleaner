@@ -10,14 +10,15 @@ public class StopShooterSpawner : MonoBehaviour
     float _timeSinceLastWave = Mathf.Infinity;
 
     float _waitBeforeNextWave = 0.5f; // after one wave wait till
-    float _waveInterval = 2f; // how long it takes to spawn one wave
+    float _waveInterval = 5f; // how long it takes to spawn one wave
 
 
     private void Update()
     {
         if (_timeSinceLastWave > _waveInterval + _waitBeforeNextWave)
         {
-            StartCoroutine(SpawnWave(GetRandomEnemy()));
+            // StartCoroutine(SpawnWave(GetRandomEnemy()));
+            SpawnWave(GetRandomEnemy());
             _timeSinceLastWave = 0;
         }
         else
@@ -26,7 +27,7 @@ public class StopShooterSpawner : MonoBehaviour
         }
     }
 
-    private IEnumerator SpawnWave(StopShooter enemy)
+    private void SpawnWave(StopShooter enemy)
     {
         StopShooterPath path = GetRandomPath();
         int enemiesInWave = path.GetSpawnPointCount();
@@ -35,7 +36,7 @@ public class StopShooterSpawner : MonoBehaviour
         Vector2[] desPos = path.GetWayPointArray(true);
 
 
-        float waitBeforeSpawningNext = _waveInterval / enemiesInWave;
+        // float waitBeforeSpawningNext = _waveInterval / enemiesInWave;
 
         for (int i = 0; i < enemiesInWave; i++)
         {
@@ -43,7 +44,7 @@ public class StopShooterSpawner : MonoBehaviour
             GameObject shooter = Instantiate(enemy.gameObject, spawnPos[i], Quaternion.identity);
             shooter.GetComponent<StopShooter>().SetPoints(spawnPos[i], desPos[i]);
 
-            yield return new WaitForSeconds(waitBeforeSpawningNext);
+            // yield return new WaitForSeconds(waitBeforeSpawningNext);
         }
     }
 
